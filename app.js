@@ -20,6 +20,12 @@ app.use(CommonMiddleware);
 app.use(loginRoute);
 app.use(registerRoute);
 
+app.get("/", (req, res) => {
+	res.status(200).json({
+		success: true,
+		message: "welcome to the home page",
+	});
+});
 // Health route
 app.get("/health", (req, res) => {
 	res.status(200).json({
