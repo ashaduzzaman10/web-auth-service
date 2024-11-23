@@ -23,7 +23,7 @@ A web authentication service built with Node.js, Express, and MongoDB. This serv
 ## Installation
 1. Clone the repository:
   ```sh
-  git clone <repository-url>
+https://github.com/ashaduzzaman10/web-auth-service.git
   ```
 2. Navigate to the project directory:
   ```sh
